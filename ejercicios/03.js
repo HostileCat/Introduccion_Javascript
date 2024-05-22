@@ -5,7 +5,13 @@
 // • lo pushee a un nuevo array
 // • devuelva el array final con el resultado de cada una de las llamadas al callback.
 
-const array = [2, 3, 4, 5];
+const numeros = [2, 3, 5, 10]
+
+const duplicar = x => x * x
+
+const resultado = numeros.map(duplicar)
+console.table(resultado)
+
 
 
 
