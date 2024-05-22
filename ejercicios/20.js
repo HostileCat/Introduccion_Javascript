@@ -23,6 +23,4 @@ const promise3 = new Promise((resolve, reject) => {
 Promise.all([promise1, promise2, promise3]).then((values) => {
     console.log('Todas las Promises han sido resueltas');
     console.log(values); 
-}).catch((error) => {
-    console.error('Hubo un error en una de las Promises', error);
-});
+})

@@ -12,4 +12,17 @@ fetch('data2.json')
 
         console.log(filteredData);
     })
+
+    // .then(data =>{
+    //     const filteredData = []
+        
+    //     data.forEach(element => {
+    //         if(element.name.startsWith("A")){
+    //             filteredData.push(element)
+    //         }
+    //     });
+
+    //     console.log(filteredData);
+
+    // })
    

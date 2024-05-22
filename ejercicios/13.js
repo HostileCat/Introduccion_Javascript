@@ -2,8 +2,14 @@
 // resuelta" cuando se cumpla.
 
 
-const promesa = new Promise((resolve, reject) => {
+const promesa = new Promise((resolve) => {
   setTimeout(() => {
-    console.log("Promesa resuelta")
+    resolve ("Promesa resuelta");
   }, 3000);
 })
+
+promesa
+  .then((mensaje)=>{
+    console.log(mensaje)
+  })
+
