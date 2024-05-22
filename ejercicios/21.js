@@ -23,3 +23,7 @@ Promise.allSettled([promise1, promise2, promise3]).then((results) => {
     console.log('Resultados de todas las Promises:');
     console.table(results);
 });
+
+
+
+  
